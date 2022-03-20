@@ -93,8 +93,6 @@ class Key extends React.Component {
         }}
         onMouseDown={useTouchEvents ? null : this.onPlayNoteInput}
         onMouseUp={useTouchEvents ? null : this.onStopNoteInput}
-        onMouseEnter={gliss ? this.onPlayNoteInput : null}
-        onMouseLeave={this.onStopNoteInput}
         onTouchStart={useTouchEvents ? this.onPlayNoteInput : null}
         onTouchCancel={useTouchEvents ? this.onStopNoteInput : null}
         onTouchEnd={useTouchEvents ? this.onStopNoteInput : null}
